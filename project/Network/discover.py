@@ -1,0 +1,160 @@
+
+from project.Common.initial import *
+drive = commonlogin()
+time.sleep(5)
+
+
+# click on Network
+drive.find_element(By.XPATH,"/html/body/div[1]/div[1]/div/header/div/div/div[2]/div[3]/div[1]/div[2]/h2").click()
+time.sleep(10)
+
+# click on friend detail,view in discover
+drive.find_element(By.XPATH,"(//img[@class='MuiCardMedia-root MuiCardMedia-media MuiCardMedia-img css-6dioh'])[1]").click()
+time.sleep(5)
+
+
+#scroll up it reach to applied section
+element = drive.find_element(By.XPATH,"/html/body/div[1]/div[2]/div/main/div/div/div/div/div/div[4]/div[2]/div/p/div[11]/div/div[1]")
+actions = ActionChains(drive)
+actions.move_to_element(element).perform()
+time.sleep(5)
+
+# click on skill
+drive.find_element(By.XPATH,"(//div)[139]").click()
+time.sleep(5)
+
+# click on interest
+drive.find_element(By.XPATH,"/html/body/div[1]/div[2]/div/main/div/div/div/div/div/div[4]/div[2]/div/p/div[2]/div/div[1]/div[1]/div").click()
+time.sleep(5)
+
+# click on industry
+drive.find_element(By.XPATH,"/html/body/div[1]/div[2]/div/main/div/div/div/div/div/div[4]/div[2]/div/p/div[3]/div/div[1]/div[1]/div").click()
+time.sleep(5)
+
+# click on function
+drive.find_element(By.XPATH,"(//div[@class='css-vfjav4'])[4]").click()
+time.sleep(5)
+
+# click on Experience
+drive.find_element(By.XPATH,"(//*[name()='svg'][@class='MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-vubbuv'])[8]").click()
+time.sleep(5)
+
+# click on Education
+drive.find_element(By.XPATH,"(//*[name()='svg'][@class='MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-vubbuv'])[9]").click()
+time.sleep(5)
+
+# click on Affiliations
+drive.find_element(By.XPATH,"(//*[name()='svg'][@class='MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-vubbuv'])[10]").click()
+time.sleep(5)
+
+# click on Awards & certification
+drive.find_element(By.XPATH,"(//*[name()='svg'][@class='MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-vubbuv'])[11]").click()
+time.sleep(5)
+
+# click on Publaction
+drive.find_element(By.XPATH,"(//*[name()='svg'][@class='MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-vubbuv'])[12]").click()
+time.sleep(5)
+
+# click on langauge
+drive.find_element(By.XPATH,"(//*[name()='svg'][@class='MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-vubbuv'])[13]").click()
+time.sleep(5)
+
+
+# click on Addational Information
+drive.find_element(By.XPATH,"(//*[name()='svg'][@class='MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-vubbuv'])[14]").click()
+time.sleep(5)
+
+drive.back()
+time.sleep(10)
+
+#
+# #scroll up it reach to applied section
+# element = drive.find_element(By.XPATH,"/html/body/div[1]/div[2]/div/main/div/div/div[2]/div/div[2]/div/div/div/div[1]/div[3]/div")
+# actions = ActionChains(drive)
+# actions.move_to_element(element).perform()
+# time.sleep(5)
+
+
+
+# click on connect    it is in discover
+drive.find_element(By.XPATH,"/html/body/div[1]/div[2]/div/main/div/div/div[3]/div/div[2]/div/div/div/div[1]/div[1]/div/div[2]/div[3]/div/div/button").click()
+time.sleep(5)
+
+drive.refresh()
+time.sleep(5)
+
+# click on sent
+drive.find_element(By.XPATH,"/html/body/div[1]/div[2]/div/main/div/div/div[1]/div/div[1]/div/button[2]/div/h5[1]").click()
+time.sleep(5)
+
+# click on see more
+drive.find_element(By.XPATH,"(//h5[@class='MuiTypography-root MuiTypography-h5 css-15jga2m'][normalize-space()='See All'])[1]").click()
+time.sleep(10)
+
+# click on remove /cancle
+drive.find_element(By.XPATH,"//body[1]/div[1]/div[2]/div[1]/main[1]/div[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]/button[1]").click()
+time.sleep(5)
+
+# # click on see less
+# drive.find_element(By.XPATH,"/html/body/div[1]/div[2]/div/main/div/div/div[1]/div[2]/h5").click()
+# time.sleep(5)
+
+
+
+# click on  user profil in discover in sent section
+drive.find_element(By.XPATH,"(//img[@class='MuiCardMedia-root MuiCardMedia-media MuiCardMedia-img css-6dioh'])[4]").click()
+time.sleep(5)
+
+
+# click on skill
+drive.find_element(By.XPATH,"(//div)[139]").click()
+time.sleep(5)
+
+# click on interest
+drive.find_element(By.XPATH,"/html/body/div[1]/div[2]/div/main/div/div/div/div/div/div[4]/div[2]/div/p/div[2]/div/div[1]/div[1]/div").click()
+time.sleep(5)
+
+# click on industry
+drive.find_element(By.XPATH,"/html/body/div[1]/div[2]/div/main/div/div/div/div/div/div[4]/div[2]/div/p/div[3]/div/div[1]/div[1]/div").click()
+time.sleep(5)
+
+# click on function
+drive.find_element(By.XPATH,"(//div[@class='css-vfjav4'])[4]").click()
+time.sleep(5)
+
+# click on Experience
+drive.find_element(By.XPATH,"(//*[name()='svg'][@class='MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-vubbuv'])[8]").click()
+time.sleep(5)
+
+# click on Education
+drive.find_element(By.XPATH,"(//*[name()='svg'][@class='MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-vubbuv'])[9]").click()
+time.sleep(5)
+
+# click on Affiliations
+drive.find_element(By.XPATH,"(//*[name()='svg'][@class='MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-vubbuv'])[10]").click()
+time.sleep(5)
+
+# click on Awards & certification
+drive.find_element(By.XPATH,"(//*[name()='svg'][@class='MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-vubbuv'])[11]").click()
+time.sleep(5)
+
+# click on Publaction
+drive.find_element(By.XPATH,"(//*[name()='svg'][@class='MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-vubbuv'])[12]").click()
+time.sleep(5)
+
+# click on langauge
+drive.find_element(By.XPATH,"(//*[name()='svg'][@class='MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-vubbuv'])[13]").click()
+time.sleep(5)
+
+
+# click on Addational Information
+drive.find_element(By.XPATH,"(//*[name()='svg'][@class='MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-vubbuv'])[14]").click()
+time.sleep(5)
+
+drive.back()
+time.sleep(20)
+
+
+
+
+
