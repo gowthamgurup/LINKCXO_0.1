@@ -85,7 +85,7 @@ drive.find_element(By.XPATH,"(//input[@id='input-with-sx'])[2]").send_keys("hsr 
 time.sleep(2)
 
  #Industry Drop Down radio button
-drive.find_element(By.XPATH,"/html/body/div[1]/div[2]/div/main/div/div/div[1]/div/div/div/div/form/div/div/div[4]/div[2]/div/div/div").click()
+drive.find_element(By.XPATH,"(//div[@id='demo-simple-select'])[2]").click()
 time.sleep(2)
 
 # click on option
@@ -93,7 +93,7 @@ drive.find_element(By.XPATH,"/html/body/div[3]/div[3]/ul/li[10]/div/span").click
 time.sleep(2)
 
  #function Drop Down radio button
-drive.find_element(By.XPATH,"/html/body/div[1]/div[2]/div/main/div/div/div[1]/div/div/div/div/form/div/div/div[5]/div[2]/div/div/div").click()
+drive.find_element(By.XPATH,"(//div[@id='demo-simple-select'])[3]").click()
 time.sleep(2)
 
 # click on option
